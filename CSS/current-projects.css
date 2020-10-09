@@ -1,39 +1,122 @@
 .aboutus-section {
     position: absolute;
-    top: 130%;
-    left: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 11%;
+    -moz-transform: translateX(0) translateY(-50%);
+    -webkit-transform: translateX(0) translateY(-50%);
+    transform: translateX(0) translateY(-50%);
 }
 
-.aboutus-container {
-    margin: 40px 0 40px 0;
-    color: #ffffff;
-    width: 1315px;
-    height: 520px;
-    background-color: #485461;
-    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-}
-
-.aboutus-container img {
-    width: 500px;
-    padding: 0 25px 0 25px;
-
-}
-
-.aboutus-container>.describtion {
-    padding: 0 30px 0 30px;
-    text-align: justify;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.aboutus-container>.describtion h1 {
+.aboutus-section h3 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 35px;
+    font-size: 2.5rem;
     font-weight: 700;
+}
+
+.aboutus-section .box {
+    border: 1px solid #fff;
+    cursor: pointer;
+    height: 222px;
+    float: left;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    width: 380px;
+    -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+.aboutus-section .box img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    width: 100%;
+    height: 100%;
+}
+
+.aboutus-section .box .caption {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    color: #fff;
+    z-index: 100;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    left: 0;
+}
+
+.aboutus-section .box .simple-caption {
+    height: 30px;
+    width: 100%;
+    display: block;
+    bottom: -30px;
+    line-height: 25pt;
+    text-align: center;
+    padding: 0;
+}
+
+@media (max-width: 470px) {
+    .aboutus-section {
+        background-color: rgba(0, 0, 0, 0.8);
+        top: 50%;
+        left: 11%;
+        margin-bottom: 20px;
+        padding: 10px 0 10px 0;
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-5%) translateY(-35%);
+    }
+
+    .aboutus-section .box {
+        height: 142px;
+        float: left;
+        margin: 15px 25px 15px 40px;
+        width: 240px;
+        box-shadow: none;
+        overflow: visible;
+    }
+
+    .aboutus-section h3 {
+        text-align: center;
+        color: #fff;
+        margin-bottom: 35px;
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    .aboutus-section .box .simple-caption {
+        height: 30px;
+        width: 100%;
+        display: block;
+        bottom: 0;
+        line-height: 25pt;
+        text-align: center;
+        padding: 0;
+    }
+
+    .aboutus-section .box img {
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        -ms-transition: none;
+        transition: none;
+    }
+
+    .aboutus-section .box .caption {
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        -ms-transition: none;
+        transition: none;
+    }
 
 }
