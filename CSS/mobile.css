@@ -1,9 +1,9 @@
-@media (max-width: 470px) {
+@media (max-width: 770px) {
 
 
     body {
-        background-image: url(../IMG/gorne_tlo1.jpg);
-        box-shadow: none;
+        background: rgb(20,30,48);
+        background: linear-gradient(104deg, rgba(20,30,48,1) 4%, rgba(36,59,85,1) 97%);
     }
 
     .menu-container {
