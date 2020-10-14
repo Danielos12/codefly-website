@@ -7,7 +7,6 @@ body {
 }
 
 body {
-  background: rgb(20,30,48);
 background: linear-gradient(104deg, rgba(20,30,48,1) 4%, rgba(36,59,85,1) 97%);
   background-repeat: no-repeat;
   background-attachment: fixed, scroll;
