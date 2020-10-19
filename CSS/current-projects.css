@@ -1,4 +1,13 @@
-.aboutus-section {
+.projects {
+    position: absolute;
+    top: 50%;
+    -moz-transform: translateX(0) translateY(-50%);
+    -webkit-transform: translateX(0) translateY(-50%);
+    transform: translateX(0) translateY(-50%);
+ 
+}
+
+.staff{
     position: absolute;
     top: 50%;
     left: 11%;
@@ -18,12 +27,12 @@
 .aboutus-section .box {
     border: 1px solid #fff;
     cursor: pointer;
-    height: 222px;
+    height: 190px;
     float: left;
     margin: 15px;
     position: relative;
     overflow: hidden;
-    width: 380px;
+    width: 350px;
     -webkit-box-shadow: 1px 1px 1px 1px #ccc;
     -moz-box-shadow: 1px 1px 1px 1px #ccc;
     box-shadow: 1px 1px 1px 1px #ccc;

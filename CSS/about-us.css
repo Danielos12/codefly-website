@@ -19,8 +19,8 @@
   color: #ffffff;
 
   width: 80%;
-   position: absolute;
-  top: 55%;
+  position: absolute;
+  top: 50%;
   left: 50%;
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -54,17 +54,20 @@
 }
 
 
-@media (max-width: 470px) {
+@media (max-width: 770px) {
   .aboutus-section {
-    padding: 70px 20px 20px 20px;
+
   }
+  
 
   .aboutus-container {
-    padding: 30px 20px 30px 20px;
-    width: inherit;
-    height: inherit;
-    flex-direction: column;
-   /*  background-color: rgba(0, 0, 0, 0.8); */
+    width: 75%;
+    height: 70%;
+
+  }
+
+  .project-2{
+
   }
 
   .aboutus-container img {
