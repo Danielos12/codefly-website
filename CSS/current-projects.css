@@ -16,6 +16,14 @@
     transform: translateX(0) translateY(-50%);
 }
 
+.games{
+    position: absolute;
+    top: 50%;
+    -moz-transform: translateX(0) translateY(-50%);
+    -webkit-transform: translateX(0) translateY(-50%);
+    transform: translateX(0) translateY(-50%);
+}
+
 .aboutus-section h3 {
     text-align: center;
     color: #fff;
@@ -74,6 +82,9 @@
 }
 
 @media (max-width: 470px) {
+    .games{
+        margin: 130px 0;
+    }
     .aboutus-section {
         /* background-color: rgba(0, 0, 0, 0.8); */
         top: 50%;
