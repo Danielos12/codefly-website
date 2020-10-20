@@ -321,9 +321,9 @@ a {
   margin: 0 !important;
 }
 
-.menu-element {
+/* .menu-element {
   background-color: #ff00fb;
-}
+} */
 
 .menu-element-1 {
   grid-area: box-1;
