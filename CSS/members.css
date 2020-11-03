@@ -97,11 +97,9 @@
   .member-container {
     padding: 30px 30px 30px 30px;
     color: #ffffff;
-  
     width: 80%;
     position: absolute;
     top: 50%;
-    left: 55%;
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
