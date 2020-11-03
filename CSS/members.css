@@ -31,16 +31,15 @@
     flex-direction: column;
   }
 
-  .dupa{
+
+  .member-image{
+      padding-bottom: 20px;
       display: flex;
       justify-content: center;
   }
 
-  .member-image{
-      width: 50%;
-      padding-bottom: 20px;
-      display: flex;
-      justify-content: center;
+  .member-image>img{
+    width: 50%;
   }
 
   .member-container {
@@ -75,26 +74,37 @@
 
 @media(max-width: 1030px){
   .member-section {
-      height: 100%;
+    padding-top: 1600px;
       position: relative;
    }
   .row {
     flex-direction: column;
-    padding-top: 100px;
   }
 
   .member-column {
-    height: 700px;
+    height: 600px;
   }
 
   .member-image{
-    margin-left: 20px;
-    width: 50%;
+    width: 100%;
     padding-bottom: 20px;
   }
 
   .aboutus-container img {
     width: 60px;
+  }
+
+  .member-container {
+    padding: 30px 30px 30px 30px;
+    color: #ffffff;
+  
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
   }
 
 }
