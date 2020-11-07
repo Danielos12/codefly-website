@@ -78,6 +78,14 @@
   .aboutus-container>.describtion h1 {
     font-weight: 700;
   }
+
+  .page-link{
+    color: #0275d8!important;
+  }
+  
+  .active>.page-link{
+    color: #ffffff !important;
+  }
   
   @media (max-width: 470px) {
     .aboutus-section {
