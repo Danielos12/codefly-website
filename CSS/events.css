@@ -12,11 +12,10 @@
     flex-direction: column; */
     height: 100%;
     position: relative;
-    padding: 20px 0 20px 0;
   }
 
   .content-container{
-     height: 70%;
+    height: 70%;
     width: 85%;
     position: absolute;
     top: 50%;
@@ -36,7 +35,10 @@
   .pagination{
       display: flex;
       justify-content: center;
-      margin-top:20px;
+      position: absolute;
+      top: 110%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
   }
   
   .background {
@@ -109,7 +111,7 @@
       -moz-transform: translateX(-50%) translateY(-50%);
       -webkit-transform: translateX(-50%) translateY(-50%);
       transform: translateX(-50%) translateY(-50%); 
-      padding: 0 0 40px 0;
+      padding: 130px 0 100px 0;
 
     }
   
@@ -121,11 +123,24 @@
       display: none;
       margin-left: 20%;
       font-weight: 800;
-  }
+    }
+
+        
+    .aboutus-container>.describtion h1{
+      font-weight: 600;
+      font-size: 27px;
+      text-align: justify;
+
+    }
   
     .aboutus-container>.describtion {
       padding-left: 0;
       font-size: 15px;
-      font-weight: 500;
+      text-align: justify;
+
     }
+
+    .pagination{
+      padding-bottom: 50px;
+  }
   }
