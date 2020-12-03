@@ -1,16 +1,7 @@
 .aboutus-section {
-  /*  position: absolute;
-   top: 55%;
-   left: 50%;
-   -moz-transform: translateX(-50%) translateY(-50%);
-   -webkit-transform: translateX(-50%) translateY(-50%);
-   transform: translateX(-50%) translateY(-50%); */
      height: 100%;
      position: relative;
      
- }
- .background {/* 
-   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.694); */
  }
  .aboutus-container {
    padding: 30px 30px 30px 30px;
@@ -22,12 +13,6 @@
    -moz-transform: translateX(-50%) translateY(-50%);
    -webkit-transform: translateX(-50%) translateY(-50%);
    transform: translateX(-50%) translateY(-50%);
-   /* background-color: #485461;
-     background-image: linear-gradient(315deg, #485461 0%, #28313b 74%); */
-   /* display: flex;
-   justify-content: center;
-   align-items: center; */
-   /* border-radius: 20px; */
  }
  .aboutus-container img {
    width: 100%;
